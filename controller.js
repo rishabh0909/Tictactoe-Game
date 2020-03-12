@@ -51,6 +51,5 @@ function printXorZero(){
    isXorZero = !isXorZero;
    document.querySelector("#result").innerText = gameOver()?"Game Over Win By "+str:"";     
 }
-
-    //console.log("Print x or zero ",this);
+  
 }
